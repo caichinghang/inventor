@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>发明家桌游工作室</title>
-    <!-- 使用本地字体 -->
-    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Simple favicon using logo -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- Using Google Fonts instead of local fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,9 +39,34 @@
     </header>
 
     <section class="hero">
+        <!-- 浮动游戏元素 -->
+        <div class="floating-element dice" style="top: 20%; left: 15%; animation: float1 8s ease-in-out infinite;"></div>
+        <div class="floating-element chess" style="top: 30%; right: 10%; animation: float2 7s ease-in-out infinite;"></div>
+        <div class="floating-element card" style="bottom: 25%; left: 18%; animation: float3 10s ease-in-out infinite;"></div>
+        <div class="floating-element meeple" style="bottom: 30%; right: 20%; animation: float4 9s ease-in-out infinite;"></div>
+        <div class="floating-element dice" style="top: 70%; left: 80%; animation: float1 11s ease-in-out infinite;"></div>
+        
         <div class="hero-content">
-            <h1 class="fade-in">发明家桌游工作室</h1>
-            <p class="slide-up">笑对人生，笑创未来</p>
+            <h1 class="creative-title fade-in">发明家桌游工作室</h1>
+            
+            <!-- Option 1: Letter staggering -->
+            <p class="fade-letters">
+                <span style="animation-delay: 0.1s">笑</span>
+                <span style="animation-delay: 0.2s">对</span>
+                <span style="animation-delay: 0.3s">人</span>
+                <span style="animation-delay: 0.4s">生</span>
+                <span style="animation-delay: 0.5s">，</span>
+                <span style="animation-delay: 0.6s">笑</span>
+                <span style="animation-delay: 0.7s">创</span>
+                <span style="animation-delay: 0.8s">未</span>
+                <span style="animation-delay: 0.9s">来</span>
+            </p>
+            
+            <!-- OR Option 2: Gradient reveal -->
+            <!-- <p class="gradient-reveal">笑对人生，笑创未来</p> -->
+            
+            <!-- OR Option 3: Elegant glow -->
+            <!-- <p class="glow-text">笑对人生，笑创未来</p> -->
         </div>
     </section>
 
@@ -97,23 +123,15 @@
     <section id="about" class="about-section">
         <h2 class="section-title">关于发明家</h2>
         <div class="about-content">
-            <div class="about-text">
-                <p>我们是一群不安分的灵魂，用独特的视角洞察世界的每一个角落。我们的使命？发现社会的不公，然后用最出人意料的方式应对它——发明有趣的桌游！</p>
-                <p>没错，你没听错。我们相信，幽默是撬动严肃话题的最佳杠杆。通过精心设计的游戏机制，我们将复杂的社会议题转化为引人入胜的桌游体验。当你和朋友围坐在游戏桌前，掷骰子、翻卡牌时，你会发现自己不知不觉开始探讨那些平日里「不敢问」的问题。</p>
-                <p>「笑对人生，笑创未来」是我们的座右铭，因为在发明家看来，改变世界的第一步，就是学会用微笑面对它的荒谬。</p>
-                <p>加入我们吧，让我们一起用欢笑瓦解沉重，用创意化解偏见，在游戏中启发思考，在欢乐中推动改变。记住，在发明家的世界里，没有什么问题是一盒妙趣横生的桌游解决不了的!</p>
-            </div>
-            <div class="social-media">
-                <div class="social-buttons">
-                    <a href="http://weixin.qq.com/r/jhK-p7-EJeJarfvE90ec" target="_blank" class="game-link social-link">
-                        <i class="social-icon wechat-icon"></i>
-                        微信公众号
-                    </a>
-                    <a href="http://xhslink.com/HssgeS" target="_blank" class="game-link social-link">
-                        <i class="social-icon redbook-icon"></i>
-                        小红书
-                    </a>
-                </div>
+            <p>我们是一群不安分的灵魂，用独特的视角洞察世界的每一个角落。我们的使命？发现社会的不公，然后用最出人意料的方式应对它——发明有趣的桌游！没错，你没听错。我们相信，幽默是撬动严肃话题的最佳杠杆。通过精心设计的游戏机制，我们将复杂的社会议题转化为引人入胜的桌游体验。当你和朋友围坐在游戏桌前，掷骰子、翻卡牌时，你会发现自己不知不觉开始探讨那些平日里「不敢问」的问题。「笑对人生，笑创未来」是我们的座右铭，因为在发明家看来，改变世界的第一步，就是学会用微笑面对它的荒谬。加入我们吧，让我们一起用欢笑瓦解沉重，用创意化解偏见，在游戏中启发思考，在欢乐中推动改变。记住，在发明家的世界里，没有什么问题是一盒妙趣横生的桌游解决不了的!</p>
+            
+            <div class="social-buttons">
+                <a href="http://weixin.qq.com/r/jhK-p7-EJeJarfvE90ec" target="_blank" class="game-link social-btn">
+                    微信公众号
+                </a>
+                <a href="http://xhslink.com/HssgeS" target="_blank" class="game-link social-btn">
+                    小红书
+                </a>
             </div>
         </div>
     </section>

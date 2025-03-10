@@ -298,7 +298,7 @@ footer {
 /* 创意排版 */
 .hero-content h1 {
     font-size: 4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem; /* Increase bottom margin for more spacing */
     position: relative;
     display: inline-block;
     letter-spacing: 0.1em;
@@ -311,7 +311,7 @@ footer {
     height: 2px;
     width: 80%;
     background: linear-gradient(90deg, transparent, var(--text-color), transparent);
-    bottom: -10px;
+    bottom: -20px; /* Move the underline down a bit */
     left: 10%;
 }
 
@@ -856,6 +856,7 @@ footer {
     /* 英雄区 */
     .hero-content h1 {
         font-size: 3rem;
+        margin-bottom: 2.2rem; /* Adjust spacing for medium screens */
     }
     
     /* 关于区域 */
@@ -925,6 +926,7 @@ footer {
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 2.5rem;
+        margin-bottom: 2rem; /* Maintain good spacing on small screens */
     }
     
     .section-title {
